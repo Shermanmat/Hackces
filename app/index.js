@@ -31,3 +31,8 @@ app.get('/', (request, response) => {
         title: 'Home'
     })
 })
+app.get('/about', (request, response) => {
+    response.render('about', {
+        title: 'About'
+    })
+})
